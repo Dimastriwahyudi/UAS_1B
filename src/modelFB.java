@@ -1,10 +1,14 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class UAS1B {
+public class modelFB {
     private String setID;
     private String setUserName;
     private String setFullName;
+
+    public modelFB() {
+
+    }
 
     public String getSetID() {
         return setID;
@@ -30,19 +34,27 @@ public class UAS1B {
         this.setFullName = setFullName;
     }
 
-    public UAS1B(){
+
+    private void setFullName(String debby_gibson) {
 
     }
-    public UAS1B(){
+
+    private void setID(String s) {
 
     }
     private String ShowNumberOfPost() {
+        return ShowNumberOfPost();
+    }
+    private void setUserName(String dbgb4a) {
+    }
+
+    private void setPosted(ArrayList<String> myPost) {
     }
 
     public static void main(String[] args) {
         int jumPost = 4;
         Scanner sc = new Scanner(System.in);
-        UAS1B user1 =  new UAS1B();
+        modelFB user1 =  new modelFB();
         user1.setID("001");
         user1.setUserName("dbgb4a");
         user1.setFullName("Debby Gibson");
@@ -54,6 +66,7 @@ public class UAS1B {
         System.out.println("Total Posted : " + user1.ShowNumberOfPost());
 
     }
+
 
 
 }
